@@ -10,3 +10,12 @@ button { background:var(--accent); color:#fff; border:0; padding:0.35rem 0.75rem
 input { border:1px solid var(--grid); padding:0.3rem; }
 a { color: var(--accent); }
 .hero-num { font-size:1.8rem; font-weight:700; }
+.lock-badge { font-size:0.75rem; background:#5c3a1e; color:#fff; padding:0.1rem 0.45rem; border-radius:2px; vertical-align:middle; }
+.unlock-badge { font-size:0.75rem; background:#d8cfc0; color:#5c4a32; padding:0.1rem 0.45rem; border-radius:2px; vertical-align:middle; }
+.lock-tag { font-size:0.7rem; background:#8b4513; color:#fff; padding:0.05rem 0.35rem; margin-left:0.5rem; }
+.lock-note { background:#f3e6d8; border-left:3px solid var(--accent); padding:0.4rem 0.6rem; }
+.edit-form { display:flex; gap:0.6rem; align-items:center; flex-wrap:wrap; margin:0.5rem 0; }
+.edit-form label { display:flex; gap:0.3rem; align-items:center; }
+button.ghost { background:#d8cfc0; color:var(--ink); }
+.error-box { background:#f8d7d2; border:1px solid #b94a3d; color:#7a2418; padding:0.45rem 0.6rem; }
+.ok-box { background:#dcecd0; border:1px solid #5a7d3f; color:#2f4a1d; padding:0.45rem 0.6rem; }
